@@ -50,10 +50,12 @@ table {
 /*Style*/
 
 @font-face {
-    font-family: 'muli';
-    src: url(../MyWebsite/assets/Font/muli-semibold-webfont.woff) format('woff');
-} 
-
+  font-family: 'muli';
+  src: url(muli-semibold-webfont.woff2) format('woff2'),
+       url(muli-semibold-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body{
     font: 18px/36px "muli", "Arial Narrow", arial, sans-serif; 
